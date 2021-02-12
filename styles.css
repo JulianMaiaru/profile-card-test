@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "Kumbh Sans Bold";
+  src: url(Fonts/KumbhSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Kumbh Sans Light";
+  src: url(Fonts/KumbhSans-Light.ttf);
+}
+
+@font-face {
+  font-family: "Kumbh Sans Regular";
+  src: url(Fonts/KumbhSans-Regular.ttf);
+}
+
+
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-position: -250px -489px, 800px 450px;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+#background { 
+  background-image: url("images/bg-pattern-bottom.svg");
+}
+
+#caja_principal {
+  background-color: white;
+  text-align: center;
+  width:400px;
+  height: 400px;
+  margin: auto ;
+  margin-top: 10%;
+  border-radius: 15px;
+  position: relative; /*posicion del objeto respecto del container */
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#parte_azul{
+  height: 40%;
+  width: 100%;
+  background-image: url("images/bg-pattern-card.svg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#parte_blanca{
+  height: 60%;
+  width: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#imgnegro{
+  position: absolute;
+  top: 28%;
+  left: 38%;
+  border-radius: 50px;
+  border: 5px solid #FFFFFF;
+}
+
+#principal{
+  height: 65%;
+  width: 100%;
+}
+
+#titulo_1y2{
+  width: 100%;
+  height: 65%;
+  padding-top: 70px;
+}
+
+
+#titulo_3{
+  width: 100%;
+  height: 35%;
+}
+
+#secundaria{
+  height: 35%;
+  width: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.negrita {
+  font-family: "Kumbh Sans Bold";
+}
+
+.grisesita {
+  font-family: "Kumbh Sans Light";
+  color: gray;
+}
+
+.grandote {
+  font-size: 18px;
+}
+
+.chiquito {
+  font-size: 13px;
+}
+
+.subtitulo {
+  padding-top: 20px;
+  width: 33%;
+  height: 100%;
+  float: left;
+}
+
+#attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 400px;
+}
